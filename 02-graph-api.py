@@ -65,3 +65,6 @@ print(final_state)
 # Print out the messages
 string_messages = [message.content for message in final_state['messages']]
 print(f"\n Final list of messages: {string_messages}")
+
+# Draw Graph (install grandalf first)
+print(graph_runnable.get_graph().draw_ascii())
